@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		0543F5C72043E0C5001621CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F5C62043E0C5001621CC /* AppDelegate.m */; };
 		0543F5CA2043E0C5001621CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F5C92043E0C5001621CC /* ViewController.m */; };
-		0543F5CD2043E0C5001621CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0543F5CB2043E0C5001621CC /* Main.storyboard */; };
 		0543F5CF2043E0C5001621CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0543F5CE2043E0C5001621CC /* Assets.xcassets */; };
 		0543F5D22043E0C5001621CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0543F5D02043E0C5001621CC /* LaunchScreen.storyboard */; };
 		0543F5D52043E0C5001621CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F5D42043E0C5001621CC /* main.m */; };
 		0543F5DF2043E0C5001621CC /* TestSomeBasicPropertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F5DE2043E0C5001621CC /* TestSomeBasicPropertyTests.m */; };
 		0543F5EA2043E0C5001621CC /* TestSomeBasicPropertyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F5E92043E0C5001621CC /* TestSomeBasicPropertyUITests.m */; };
+		0543F5F92043E7F9001621CC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F5F82043E7F9001621CC /* SecondViewController.m */; };
+		0543F5FC2043EF49001621CC /* KLTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F5FB2043EF49001621CC /* KLTNavigationController.m */; };
+		0543F5FF2043EF67001621CC /* AnimationContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0543F5FD2043EF67001621CC /* AnimationContoller.m */; };
+		05AC063420453F2400AC91EC /* LZHMusicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC063220453F2400AC91EC /* LZHMusicButton.m */; };
+		05AC063720453F5200AC91EC /* LZHCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC063520453F5200AC91EC /* LZHCircularProgressView.m */; };
+		05B0FD3F2047D3C900931DFD /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B0FD3E2047D3C900931DFD /* ThirdViewController.m */; };
+		128457D34E65D3353D052F11 /* libPods-TestSomeBasicProperty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D198DEB7E88196FD874572 /* libPods-TestSomeBasicProperty.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		0543F5C62043E0C5001621CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0543F5C82043E0C5001621CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0543F5C92043E0C5001621CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0543F5CC2043E0C5001621CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0543F5CE2043E0C5001621CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0543F5D12043E0C5001621CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0543F5D32043E0C5001621CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,21 @@
 		0543F5E52043E0C5001621CC /* TestSomeBasicPropertyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSomeBasicPropertyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0543F5E92043E0C5001621CC /* TestSomeBasicPropertyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSomeBasicPropertyUITests.m; sourceTree = "<group>"; };
 		0543F5EB2043E0C5001621CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0543F5F72043E7F9001621CC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0543F5F82043E7F9001621CC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0543F5FA2043EF48001621CC /* KLTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLTNavigationController.h; sourceTree = "<group>"; };
+		0543F5FB2043EF49001621CC /* KLTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLTNavigationController.m; sourceTree = "<group>"; };
+		0543F5FD2043EF67001621CC /* AnimationContoller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationContoller.m; sourceTree = "<group>"; };
+		0543F5FE2043EF67001621CC /* AnimationContoller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationContoller.h; sourceTree = "<group>"; };
+		05AC063220453F2400AC91EC /* LZHMusicButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHMusicButton.m; sourceTree = "<group>"; };
+		05AC063320453F2400AC91EC /* LZHMusicButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZHMusicButton.h; sourceTree = "<group>"; };
+		05AC063520453F5200AC91EC /* LZHCircularProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHCircularProgressView.m; sourceTree = "<group>"; };
+		05AC063620453F5200AC91EC /* LZHCircularProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZHCircularProgressView.h; sourceTree = "<group>"; };
+		05B0FD3D2047D3C900931DFD /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		05B0FD3E2047D3C900931DFD /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		11D198DEB7E88196FD874572 /* libPods-TestSomeBasicProperty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSomeBasicProperty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAA55EEFDABEEA531369CEC /* Pods-TestSomeBasicProperty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSomeBasicProperty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSomeBasicProperty/Pods-TestSomeBasicProperty.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2C978FCBA62AB4FDA5C7C7 /* Pods-TestSomeBasicProperty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSomeBasicProperty.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSomeBasicProperty/Pods-TestSomeBasicProperty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128457D34E65D3353D052F11 /* libPods-TestSomeBasicProperty.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				0543F5DD2043E0C5001621CC /* TestSomeBasicPropertyTests */,
 				0543F5E82043E0C5001621CC /* TestSomeBasicPropertyUITests */,
 				0543F5C32043E0C5001621CC /* Products */,
+				0E1FE6B2A608DE1BA6EAFC4A /* Pods */,
+				EF607DAA995BE12B884E9410 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +128,22 @@
 				0543F5C62043E0C5001621CC /* AppDelegate.m */,
 				0543F5C82043E0C5001621CC /* ViewController.h */,
 				0543F5C92043E0C5001621CC /* ViewController.m */,
-				0543F5CB2043E0C5001621CC /* Main.storyboard */,
+				0543F5F72043E7F9001621CC /* SecondViewController.h */,
+				0543F5F82043E7F9001621CC /* SecondViewController.m */,
+				0543F5FA2043EF48001621CC /* KLTNavigationController.h */,
+				0543F5FB2043EF49001621CC /* KLTNavigationController.m */,
+				05AC063320453F2400AC91EC /* LZHMusicButton.h */,
+				05AC063220453F2400AC91EC /* LZHMusicButton.m */,
+				05AC063620453F5200AC91EC /* LZHCircularProgressView.h */,
+				05AC063520453F5200AC91EC /* LZHCircularProgressView.m */,
+				0543F5FE2043EF67001621CC /* AnimationContoller.h */,
+				0543F5FD2043EF67001621CC /* AnimationContoller.m */,
 				0543F5CE2043E0C5001621CC /* Assets.xcassets */,
 				0543F5D02043E0C5001621CC /* LaunchScreen.storyboard */,
 				0543F5D32043E0C5001621CC /* Info.plist */,
 				0543F5D42043E0C5001621CC /* main.m */,
+				05B0FD3D2047D3C900931DFD /* ThirdViewController.h */,
+				05B0FD3E2047D3C900931DFD /* ThirdViewController.m */,
 			);
 			path = TestSomeBasicProperty;
 			sourceTree = "<group>";
@@ -132,6 +166,23 @@
 			path = TestSomeBasicPropertyUITests;
 			sourceTree = "<group>";
 		};
+		0E1FE6B2A608DE1BA6EAFC4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA55EEFDABEEA531369CEC /* Pods-TestSomeBasicProperty.debug.xcconfig */,
+				FF2C978FCBA62AB4FDA5C7C7 /* Pods-TestSomeBasicProperty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF607DAA995BE12B884E9410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11D198DEB7E88196FD874572 /* libPods-TestSomeBasicProperty.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0543F5EE2043E0C5001621CC /* Build configuration list for PBXNativeTarget "TestSomeBasicProperty" */;
 			buildPhases = (
+				8D79C7E9C90F4B8165D7DDDE /* [CP] Check Pods Manifest.lock */,
 				0543F5BE2043E0C5001621CC /* Sources */,
 				0543F5BF2043E0C5001621CC /* Frameworks */,
 				0543F5C02043E0C5001621CC /* Resources */,
+				C7883514782B7890FF13DCC1 /* [CP] Embed Pods Frameworks */,
+				DAC0944189EF36FC76ABA178 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +294,6 @@
 			files = (
 				0543F5D22043E0C5001621CC /* LaunchScreen.storyboard in Resources */,
 				0543F5CF2043E0C5001621CC /* Assets.xcassets in Resources */,
-				0543F5CD2043E0C5001621CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +313,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D79C7E9C90F4B8165D7DDDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSomeBasicProperty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7883514782B7890FF13DCC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSomeBasicProperty/Pods-TestSomeBasicProperty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC0944189EF36FC76ABA178 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSomeBasicProperty/Pods-TestSomeBasicProperty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0543F5BE2043E0C5001621CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0543F5FC2043EF49001621CC /* KLTNavigationController.m in Sources */,
+				0543F5F92043E7F9001621CC /* SecondViewController.m in Sources */,
+				05AC063420453F2400AC91EC /* LZHMusicButton.m in Sources */,
 				0543F5CA2043E0C5001621CC /* ViewController.m in Sources */,
+				0543F5FF2043EF67001621CC /* AnimationContoller.m in Sources */,
+				05B0FD3F2047D3C900931DFD /* ThirdViewController.m in Sources */,
 				0543F5D52043E0C5001621CC /* main.m in Sources */,
 				0543F5C72043E0C5001621CC /* AppDelegate.m in Sources */,
+				05AC063720453F5200AC91EC /* LZHCircularProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0543F5CB2043E0C5001621CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0543F5CC2043E0C5001621CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0543F5D02043E0C5001621CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +530,7 @@
 		};
 		0543F5EF2043E0C5001621CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBAA55EEFDABEEA531369CEC /* Pods-TestSomeBasicProperty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +545,7 @@
 		};
 		0543F5F02043E0C5001621CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2C978FCBA62AB4FDA5C7C7 /* Pods-TestSomeBasicProperty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

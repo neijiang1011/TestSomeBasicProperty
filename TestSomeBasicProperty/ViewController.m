@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <XHToast.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //[self.navigationController setNavigationBarHidden:YES];
+    //[[UINavigationBar appearance] setTintColor:[UIColor redColor]];
+    
+    self.navigationController.navigationBar.backgroundColor = [UIColor orangeColor];
+    self.navigationItem.title = @"first";
+//    self.navigationController.navigationBar.tintColor = [UIColor redColor];
+//    [XHToast showCenterWithText:@"haha"];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    
 }
 
 

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SecondViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UITabBarController *tabC = [[UITabBarController alloc]init];
+    self.window.rootViewController = tabC;
+    
+    
+    
+    UIViewController *vc1 = [[UIViewController alloc]init];
+    //vc1.view.backgroundColor = [UIColor lightGrayColor];
+    UINavigationController *navVC1 = [[UINavigationController alloc]initWithRootViewController:vc1];
+    
+    navVC1.tabBarItem.title = @"first";
+    navVC1.tabBarItem.image = [[UIImage imageNamed:@"blackBack"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    
+    SecondViewController *vc2 = [[SecondViewController alloc]init];
+    vc2.view.backgroundColor = [UIColor orangeColor];
+    UINavigationController *navVC2 = [[UINavigationController alloc]initWithRootViewController:vc2];
+    
+    navVC2.tabBarItem.title = @"second";
+    navVC2.tabBarItem.image = [[UIImage imageNamed:@"blackBack"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    tabC.viewControllers = @[navVC1, navVC2];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
