@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor blueColor];
     self.title = @"Third";
+    
+    UILabel *label = [[UILabel alloc]init];
 }
 
 - (void)didReceiveMemoryWarning {
