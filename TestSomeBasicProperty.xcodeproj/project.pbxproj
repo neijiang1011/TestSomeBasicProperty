@@ -20,6 +20,7 @@
 		05AC063420453F2400AC91EC /* LZHMusicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC063220453F2400AC91EC /* LZHMusicButton.m */; };
 		05AC063720453F5200AC91EC /* LZHCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AC063520453F5200AC91EC /* LZHCircularProgressView.m */; };
 		05B0FD3F2047D3C900931DFD /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B0FD3E2047D3C900931DFD /* ThirdViewController.m */; };
+		05B0FD422047DFF200931DFD /* MapForItineraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B0FD412047DFF200931DFD /* MapForItineraryViewController.m */; };
 		128457D34E65D3353D052F11 /* libPods-TestSomeBasicProperty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D198DEB7E88196FD874572 /* libPods-TestSomeBasicProperty.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		05AC063620453F5200AC91EC /* LZHCircularProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZHCircularProgressView.h; sourceTree = "<group>"; };
 		05B0FD3D2047D3C900931DFD /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		05B0FD3E2047D3C900931DFD /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		05B0FD402047DFF200931DFD /* MapForItineraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapForItineraryViewController.h; sourceTree = "<group>"; };
+		05B0FD412047DFF200931DFD /* MapForItineraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapForItineraryViewController.m; sourceTree = "<group>"; };
 		11D198DEB7E88196FD874572 /* libPods-TestSomeBasicProperty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSomeBasicProperty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAA55EEFDABEEA531369CEC /* Pods-TestSomeBasicProperty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSomeBasicProperty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSomeBasicProperty/Pods-TestSomeBasicProperty.debug.xcconfig"; sourceTree = "<group>"; };
 		FF2C978FCBA62AB4FDA5C7C7 /* Pods-TestSomeBasicProperty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSomeBasicProperty.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSomeBasicProperty/Pods-TestSomeBasicProperty.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				0543F5D42043E0C5001621CC /* main.m */,
 				05B0FD3D2047D3C900931DFD /* ThirdViewController.h */,
 				05B0FD3E2047D3C900931DFD /* ThirdViewController.m */,
+				05B0FD402047DFF200931DFD /* MapForItineraryViewController.h */,
+				05B0FD412047DFF200931DFD /* MapForItineraryViewController.m */,
 			);
 			path = TestSomeBasicProperty;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 				0543F5FC2043EF49001621CC /* KLTNavigationController.m in Sources */,
 				0543F5F92043E7F9001621CC /* SecondViewController.m in Sources */,
 				05AC063420453F2400AC91EC /* LZHMusicButton.m in Sources */,
+				05B0FD422047DFF200931DFD /* MapForItineraryViewController.m in Sources */,
 				0543F5CA2043E0C5001621CC /* ViewController.m in Sources */,
 				0543F5FF2043EF67001621CC /* AnimationContoller.m in Sources */,
 				05B0FD3F2047D3C900931DFD /* ThirdViewController.m in Sources */,
