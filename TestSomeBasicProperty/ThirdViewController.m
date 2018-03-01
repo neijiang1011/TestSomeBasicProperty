@@ -21,6 +21,7 @@
     self.title = @"Third";
     
     UILabel *label = [[UILabel alloc]init];
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {
