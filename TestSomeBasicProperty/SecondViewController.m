@@ -54,7 +54,7 @@
     self.navigationItem.leftBarButtonItems = @[spaceItem,leftBarBtn];
     
     
-    self.title = @"secondPage";
+    self.title = @"second  Page";
     
 //    self.navigationController.interactivePopGestureRecognizer.delegate = self;
 }
